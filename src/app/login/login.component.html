@@ -1,0 +1,29 @@
+<div>
+  <h1 class="title center">
+    Log In
+  </h1>
+</div>
+
+
+<div class="row">
+<div class="col s6 push-s3">
+  <div class="card  darken-1">
+    <div class="card-content ">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="User Id" [(ngModel)]="userId" name="userId" type="text" class="validate">
+          </div>
+          <div class="input-field col s12">
+            <input [(ngModel)]="password" type="password" name="password" placeholder="Password">
+          </div>
+        </div>
+      </form>
+      <div class="center">
+        <a class="center waves-effect waves-light btn" (click)="logIn(userId,password)">Log In</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>

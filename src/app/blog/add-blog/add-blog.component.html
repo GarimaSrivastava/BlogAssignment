@@ -1,0 +1,25 @@
+
+<div class="col s12 m6">
+  <div class="card darken-1">
+    <div class="card-content ">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="Title" [(ngModel)]="title" name="title" type="text" class="validate">
+            </div>
+            <div class="input-field col s12">
+              <input [(ngModel)]="description" type="text" name="description" placeholder="Description">
+            </div>
+            <div class="input-field col s12">
+              <input [(ngModel)]="category" type="text" name="category" placeholder="Category">
+            </div>
+
+
+          </div>
+        </form>
+        <a class="center waves-effect waves-light btn" (click)="addElement(title, description,category)">Add</a>
+      </div>
+    </div>
+  </div>
+</div>

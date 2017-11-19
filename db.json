@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "garima",
+      "password": "garima",
+      "favourites": [
+        4,
+        5,
+        8,
+        7
+      ]
+    },
+    {
+      "id": 1,
+      "name": "rhythm",
+      "password": "ritzi",
+      "favourites": [
+        4,
+        6
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Cards",
+      "description": "Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length.",
+      "category": "Management",
+      "postedBy": {
+        "name": "rhythm",
+        "password": "ritzi"
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 4
+    },
+    {
+      "title": "hey",
+      "description": "You'll notice that there are two sets of the files. The min means that the file is \"compressed\" to reduce load times. These minified files are usually used in production while it is better to use the unminified files during development.",
+      "category": "Food",
+      "postedBy": {
+        "name": "rhythm",
+        "password": "ritzi"
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 5
+    },
+    {
+      "title": "Select",
+      "description": "Select allows user input through specified options. Make sure you wrap it in a .input-field for proper alignment with other text fields. Remember that this is a jQuery plugin so make sure you initialize this in your document ready.",
+      "category": "Technology",
+      "postedBy": {
+        "id": 0,
+        "name": "garima",
+        "password": "garima",
+        "favourites": [
+          4,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 6
+    },
+    {
+      "title": "jhfhfh",
+      "description": "Select allows user input through specified options. lkhdkjwegfkjwdgfiwdMake sure you wrap it in a .input-field for proper alignment with other text fields. Remember that this is a jQuery plugin so make sure you initialize this in your document ready.",
+      "category": "Technology",
+      "postedBy": {
+        "id": 0,
+        "name": "garima",
+        "password": "garima",
+        "favourites": [
+          4,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 7
+    },
+    {
+      "title": "hdhjcghgvh",
+      "description": "Select allows user input through specified options. Make sure you wrap it in a .input-field for proper alignment with other text fields. Remember that this is a jQuery plugin so make sure you initialize this in your document ready.",
+      "category": "management",
+      "postedBy": {
+        "id": 0,
+        "name": "garima",
+        "password": "garima",
+        "favourites": [
+          4,
+          5
+        ]
+      },
+      "likes": 0,
+      "dislikes": 0,
+      "id": 8
+    }
+  ]
+}

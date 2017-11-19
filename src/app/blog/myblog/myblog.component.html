@@ -1,0 +1,26 @@
+<div>
+  <h1 class="main center">
+    Favourites
+  </h1>
+</div>
+
+
+<div *ngFor="let fav of favs">
+  <div *ngFor="let blog of blogs">
+     <div *ngIf="fav==blog.id">
+       <div class="collection card bigbox">
+            <div class="box">
+            <br>
+              <div class="heading"><b>{{blog.title}}</b>
+              <button class="cat">{{blog.category}}</button>
+              </div>
+            <hr>
+            <br>
+              <div class="desc">
+                {{blog.description}}
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
